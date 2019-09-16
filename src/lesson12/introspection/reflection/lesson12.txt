@@ -1,1 +1,1 @@
-City:Kazan,Since:1005,Area:425.3,TimeZone:UTC+03:00,Population:1251969,
+Name:Kazan,Since:1005,Area:425.3,TimeZone:UTC+03:00,Population:1251969,

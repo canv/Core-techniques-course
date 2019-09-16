@@ -28,35 +28,32 @@ public class City {
     double populationPerSquare(int specialPopulation, double specialArea){
         return specialPopulation / specialArea;
     }
-//    public void setName(String name) {
-//        this.name = name;
-//    }
-//    public void setSince(int since) {
-//        this.since = since;
-//    }
-//    public void setArea(double area) {
-//        this.area = area;
-//    }
-//    public void setTimeZone(String timeZone) {
-//        this.timeZone = timeZone;
-//    }
-//    public void setPopulation(int population) {
-//        this.population = population;
-//    }
-    String getName() {
-        return name;
+
+    public void setName(String name) {
+        this.name = name;
     }
-    int getSince() {
-        return since;
+    public void setSince(int since) {
+        this.since = since;
     }
-    double getArea() {
-        return area;
+    public void setArea(double area) {
+        this.area = area;
     }
-    String getTimeZone() {
-        return timeZone;
+    public void setTimeZone(String timeZone) {
+        this.timeZone = timeZone;
     }
-    long getPopulation() {
-        return population;
+    public void setPopulation(long population) {
+        this.population = population;
+    }
+
+    @Override
+    public String toString() {
+        return "City{" +
+                "name='" + name + '\'' +
+                ", since=" + since +
+                ", area=" + area +
+                ", timeZone='" + timeZone + '\'' +
+                ", population=" + population +
+                '}';
     }
 
     static class CityBuilder{
